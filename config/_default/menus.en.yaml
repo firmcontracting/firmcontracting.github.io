@@ -1,0 +1,39 @@
+main:
+  - name: Home
+    url: '#home'
+    weight: 1
+  - name: About
+    url: '#about'
+    weight: 2
+  - name: Service
+    url: '#service'
+    weight: 3
+  - name: Work
+    url: '#portfolio'
+    weight: 4
+  - name: Resume
+    url: '#resume'
+    weight: 5
+  - name: Skills
+    url: '#skills'
+    weight: 6
+  - name: Blog
+    url: '#blog'
+    weight: 7
+  - name: Contact
+    url: '#contact'
+    weight: 8
+
+sitemap:
+  - name: About me
+    url: about
+    weight: 1
+  - name: Frequently Ask Question
+    url: '#'
+    weight: 2
+  - name: Privacy & Policy
+    url: '#'
+    weight: 3
+  - name: Latest Article
+    url: '#'
+    weight: 4

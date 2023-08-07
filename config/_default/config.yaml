@@ -1,0 +1,20 @@
+# Hugo site title
+title: Portio
+
+# The URL to the root of the website
+baseURL: https://firmcontracting.com/
+
+# Language code for the website
+languageCode: en-us
+
+# When enabled a robots.txt file will be created in the site root that allows search engines to crawl the entire site
+enableRobotsTXT: true
+
+# The number of articles listed on each page of the article listing
+paginate: 6
+
+frontmatter:
+  # Fetches the date from the content file's filename
+  date:
+    - :filename
+    - :default
