@@ -8,21 +8,15 @@ main:
   - name: Service
     url: '#service'
     weight: 3
-  - name: Work
-    url: '#portfolio'
-    weight: 4
   - name: Resume
     url: '#resume'
-    weight: 5
+    weight: 4
   - name: Skills
     url: '#skills'
-    weight: 6
-  - name: Blog
-    url: '#blog'
-    weight: 7
+    weight: 5
   - name: Contact
     url: '#contact'
-    weight: 8
+    weight: 6
 
 sitemap:
   - name: About me
