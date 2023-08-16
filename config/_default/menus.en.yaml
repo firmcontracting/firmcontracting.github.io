@@ -11,12 +11,9 @@ main:
   - name: Resume
     url: '#resume'
     weight: 4
-  - name: Skills
-    url: '#skills'
-    weight: 5
   - name: Contact
     url: '#contact'
-    weight: 6
+    weight: 5
 
 sitemap:
   - name: About me
