@@ -1,10 +1,9 @@
 ---
-enable: true
-topTitle: Testimonials
-title: >
+title: Reviews
+content: >
   ## What People Say About Me?
 
-testimonial:
+reviews:
   - name: Ryan Cook
     comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
     time: Jan 20, 2020
@@ -17,3 +16,4 @@ testimonial:
     comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
     time: Mar 08, 2020
     star: 3
+---

@@ -137,8 +137,8 @@ $(document).ready(function () {
     { offset: "80%" }
   );
 
-  // Testimonial slider
-  $(".testimonial__slider").slick({
+  // Reviews slider
+  $(".reviews__slider").slick({
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
