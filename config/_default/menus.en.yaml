@@ -2,8 +2,8 @@ main:
   - name: Home
     url: '#home'
     weight: 1
-  - name: Service
-    url: '#service'
+  - name: Services
+    url: '#services'
     weight: 2
   - name: Reviews
     url: '#reviews'

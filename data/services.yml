@@ -1,12 +1,11 @@
 ---
-enable: true
-topTitle: Working Area
-title: >
+title: Services
+content: >
   ## Creative Services
 
   Enjoy team diversity and increase their networks among others people in
   various fields by provided.
-service:
+services:
   - content: >
       #### UI/UX Design 
 
@@ -43,3 +42,4 @@ service:
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
       tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/service/web.svg
+---
