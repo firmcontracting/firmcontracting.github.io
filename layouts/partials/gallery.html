@@ -1,0 +1,22 @@
+{{ with .Site.Data.gallery }}
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 mb-4">
+        <div class="gallery__header mb-5">
+          <span class="top-title pre-line">{{ .title }}</span>
+          {{ .content | markdownify }}
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-2">
+      {{ range $image := .images }}
+      <div class="col-lg-4 mb-4 gallery_image">
+        <a data-fslightbox="gallery" href="{{ $image | absURL }}" class="gallery_image-thumb">
+          <img src="{{ $image | absURL }}" alt="ui-ux">
+        </a>
+      </div>
+      {{ end }}
+    </div>
+</section>
+{{ end }}
