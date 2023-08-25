@@ -5,11 +5,11 @@ main:
   - name: Services
     url: '#services'
     weight: 2
-  - name: Reviews
-    url: '#reviews'
-    weight: 3
   - name: Gallery
     url: '#gallery'
+    weight: 3
+  - name: Reviews
+    url: '#reviews'
     weight: 4
   - name: Contact
     url: '#contact'
