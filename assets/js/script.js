@@ -57,6 +57,9 @@ $(document).ready(function () {
   // preloder
   PageLoad();
 
+  // GLightbox initialization
+  var lightbox = GLightbox();
+
   // change-navigation-color
   $(window).scroll(function () {
     if ($(document).scrollTop() > 200) {

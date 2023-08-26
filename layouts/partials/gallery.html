@@ -12,8 +12,8 @@
     <div class="row row-cols-2">
       {{ range $image := .images }}
       <div class="col-lg-4 mb-4 gallery_image">
-        <a data-fslightbox="gallery" href="{{ $image | absURL }}" class="gallery_image-thumb">
-          <img src="{{ $image | absURL }}" alt="ui-ux">
+        <a data-gallery="gallery1" href="{{ $image | absURL }}" class="gallery_image-thumb glightbox">
+          <img src="{{ $image | absURL }}" alt="image">
         </a>
       </div>
       {{ end }}
