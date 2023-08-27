@@ -16,15 +16,9 @@ main:
     weight: 5
 
 sitemap:
-  - name: About me
-    url: about
+  - name: Home
+    url: '#'
     weight: 1
-  - name: Frequently Ask Question
-    url: '#'
+  - name: Contact
+    url: 'contact'
     weight: 2
-  - name: Privacy & Policy
-    url: '#'
-    weight: 3
-  - name: Latest Article
-    url: '#'
-    weight: 4
