@@ -17,7 +17,7 @@
         fill: $white;
       }
     }
-    @include mobile-xs {
+    @include mobile {
       display: none;
     }
   }
@@ -48,6 +48,22 @@
       &-content {
         margin: 0 0 40px 0;
         line-height: 35px;
+        height: 350px;
+        @include desktop-lg {
+          height: 420px;
+        }
+        @include desktop {
+          height: 300px;
+        }
+        @include tablet {
+          height: 450px;
+        }
+        @include mobile-xs {
+          height: 475px;
+        }
+        @include mobile-s {
+          height: 500px;
+        }
       }
       &-author {
         margin: 0 0 0 35px;
@@ -69,6 +85,12 @@
           transform: translateY(-50%);
           background: #282f49;
         }
+      }
+    }
+    .slick-prev,
+    .slick-next {
+      &:before {
+        color: $primary;
       }
     }
     .slick-dots {

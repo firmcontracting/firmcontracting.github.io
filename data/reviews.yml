@@ -4,16 +4,32 @@ content: >
   ## What People Say About Me?
 
 reviews:
-  - name: Ryan Cook
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Jan 20, 2020
+  - name: Filip Jeremic
+    comment: >
+      Adriano and his team did an amazing job on our exterior renovation project. We poured 2000+ sqft of exposed
+      aggregate concrete, built a retaining wall, and installed a fence. Adriano was super detail oriented and made sure
+      everything was done to perfection. He was also very responsive and easy to work with. I would highly recommend
+      Adriano and his team!
+    time: Aug 27, 2023
     star: 5
-  - name: Justin Trudo
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Jan 16, 2020
-    star: 4
-  - name: Franky Filth
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Mar 08, 2020
-    star: 3
+  - name: Hugo Matos
+    comment: >
+      I had a massive project to do, which started as a complete gut of my place. I had heard from several friends that 
+      Adriano was the man for what I was planning. Fast forward 2 years later with several months of work each winter 
+      since I had to split my main floor & basement time line, and I basically have a brand new home that has a shell 
+      of 100+ years.
+    time: Apr 09, 2023
+    star: 5
+  - name: Catriona Franc
+    comment: >
+      Adriano and his dad Firm are excellent and are able to do pretty much everything and craftsmanship is awesome - 
+      very pleasant, hard working and excellent work. Highly recommend!
+    time: May 06, 2021
+    star: 5
+  - name: Alvin Dela Cruz
+    comment: >
+      Adriano was exceptional, hard working and the outcome of the project was better then asked. He made an exposed 
+      aggregate patio with matching garden edge trim, it will make our backyard look amazing year round.
+    time: Jun 15, 2018
+    star: 5
 ---
