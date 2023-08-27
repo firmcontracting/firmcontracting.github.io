@@ -3,43 +3,36 @@ title: Services
 content: >
   ## Creative Services
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+  We offer a wide range of creative services. From interior renovations to exterior additions, we have you covered.
 services:
   - content: >
-      #### UI/UX Design 
+      #### Interior
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
+      - Bathroom Renovations
+
+      - Kitchen Renovations
+
+      - Basement Renovations
+
+      - Electrical & Plumbing
+
+      - Flooring & Tiling Installation
+
+      - Painting Services
+
+      - Drywall Installation
+    image: images/service/man-nail-wall.svg
   - content: >
-      #### Web Development 
+      #### Exterior
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
-  - content: >
-      #### Creative Design 
+      - Additions
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/creative.svg
-  - content: >
-      #### Branding
+      - Fence & Custom Decks
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/branding.svg
-  - content: >
-      #### UI/UX Design
+      - Concrete Designs
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
-  - content: >
-      #### Web Development
+      - Bobcat Services
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
+      - Retaining Walls
+    image: images/service/man-shovel-dirt.svg
 ---
