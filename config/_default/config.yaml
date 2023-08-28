@@ -1,20 +1,64 @@
 # Hugo site title
-title: Portio
+title: Firm Contracting
 
 # The URL to the root of the website
 baseURL: https://firmcontracting.com/
 
 # Language code for the website
 languageCode: en-us
+languageName: English
 
 # When enabled a robots.txt file will be created in the site root that allows search engines to crawl the entire site
 enableRobotsTXT: true
 
-# The number of articles listed on each page of the article listing
-paginate: 6
+menu:
+  main:
+    - name: Home
+      url: '#home'
+      weight: 1
+    - name: Services
+      url: '#services'
+      weight: 2
+    - name: Gallery
+      url: '#gallery'
+      weight: 3
+    - name: Reviews
+      url: '#reviews'
+      weight: 4
+    - name: Contact
+      url: '#contact'
+      weight: 5
 
-frontmatter:
-  # Fetches the date from the content file's filename
-  date:
-    - :filename
-    - :default
+  sitemap:
+    - name: Home
+      url: '#'
+      weight: 1
+    - name: Contact
+      url: 'contact'
+      weight: 2
+
+params:
+  # Website author name (who this website belongs to)
+  author: Adriano Ferreira
+
+  # The company’s name. This will be displayed in article footers, and on the homepage when the profile layout is used.
+  name: Firm Contracting
+
+  # The company’s logo. This will be used in the site metadata, and in the header/footer when the profile layout is used.
+  logo: images/logo.png
+
+  # The website description. This will be used in the site metadata.
+  description: >
+    Firm Contracting is a full-service general contractor specializing in commercial and residential 
+    construction. We are a family-owned business with over 10 years of experience in the industry. We offer a wide 
+    range of services, including new construction, remodeling, additions, and more. Our team is committed to providing 
+    quality workmanship at competitive prices. Contact us today for your free estimate!
+  
+  # Links to the company’s social media profiles
+  socials:
+    - name: Facebook
+      icon: fa-facebook-official
+      url: https://www.facebook.com/p/Firm-Contracting-100035335701052/
+    - name: Google
+      icon: fa-google
+      url: https://www.google.com/search?q=firm+contracting
