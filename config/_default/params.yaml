@@ -1,13 +1,5 @@
 author: Adriano Ferreira
-blogPageURL: blog
-contactLink: contact
-copyright: All right reserved copyright © Portio 2020
 logo: images/logo.png
-address:
-  address: '23 Khan Niketon, Grand Street, NYK.'
-  email: hello@example.com
-  openingHours: Open from 10am to 6pm (close at 5pm Sundays)
-  phone: +(448) 833 5272 332
 socials:
   - name: Facebook
     icon: fa-facebook-official
