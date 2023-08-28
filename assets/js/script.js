@@ -82,4 +82,36 @@ $(document).ready(function () {
           "M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z",
       },
     });
+
+  // Formspree integration
+  var form = document.getElementById("contact-form");
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    var button = document.getElementById("contact-form-button");
+    var status = document.getElementById("contact-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        button.style = "display: none ";
+        status.innerHTML = "Thanks for your submission! We'll get back to you soon.";
+        form.reset()
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+          } else {
+            status.innerHTML = "Oops! There was a problem submitting your form. Please use the contact details above to get in touch."
+          }
+        })
+      }
+    }).catch(error => {
+      status.innerHTML = "Oops! There was a problem submitting your form. Please use the contact details above to get in touch."
+    });
+  })
 });

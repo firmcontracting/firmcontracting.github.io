@@ -1,49 +1,96 @@
-.contact__info {
-  &_item {
-    box-shadow: 0px 20px 40px 0px rgba(50, 65, 141, 0.12);
-    padding: 50px 40px;
-    border-radius: 20px;
-    &-icon {
-      height: 110px;
-      width: 125px;
-      position: relative;
-      margin-bottom: 35px;
-      .icon-background {
-        position: absolute;
-        top: 0;
-        right: 0;
+.contact {
+  padding: 200px 0 0;
+  position: relative;
+  .svg-img {
+      position: absolute;
+      bottom: -35%;
+      left: -7%;
+      animation: move_top 5s infinite linear;
+      @include desktop {
+          display: none;
       }
-      .icon {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        z-index: 1;
+  }
+  .animate-shape {
+      position: absolute;
+      bottom: -60%;
+      right: 2%;
+      height: 300px;
+      width: 300px;
+      svg {
+          width: 100%;
+      }
+      @include desktop {
+          display: none;
+      }
+  }
+  .animate-pattern {
+      position: absolute;
+      bottom: -40%;
+      right: 10%;
+      height: 100px;
+      width: 100px;
+      animation: move_top 3s infinite linear;
+      img {
+          height: 100%;
+          width: 100%;
+      }
+      @include desktop {
+          display: none;
+      }
+  }
+  @include desktop {
+      padding: 120px 0 0;
+  }
+  &__title {
+      font-size: 48px;
+      line-height: 1;
+      margin: 0 0 30px 0;
+  }
+  &__info {
+    &_item {
+      box-shadow: 0px 20px 40px 0px rgba(50, 65, 141, 0.12);
+      padding: 50px 40px;
+      border-radius: 20px;
+      height: 100%;
+      &-icon {
+        height: 110px;
+        width: 125px;
+        position: relative;
+        margin-bottom: 35px;
+        .icon-background {
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+        .icon {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          z-index: 1;
+        }
+      }
+      a {
+        color: $body-color;
+        text-decoration: underline;
       }
     }
-    a {
-      color: $body-color;
-      text-decoration: underline;
-    }
   }
-}
-.contact-form {
-  padding: 50px 0 100px 0;
-  &-input {
-    .form-group {
-      margin-bottom: 30px;
+  &-form {
+    padding: 50px 0 100px 0;
+    &-input {
+      .form-group {
+        margin-bottom: 30px;
+      }
     }
-  }
-  #map {
-    border-radius: 30px;
-    height: 100%;
-    @include desktop {
-      height: 400px;
-      margin-top: 60px;
-    }
-  }
-  &-generator {
-    p,a,strong{
-      font-size: 13px;
+    &-service-area {
+      overflow: hidden;
+      height: 100%;
+      img {
+        width: 100%;
+        border-radius: 30px;
+        object-fit: none;
+        object-position: center;
+      }
     }
   }
 }

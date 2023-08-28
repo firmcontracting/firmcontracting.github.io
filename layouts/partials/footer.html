@@ -36,7 +36,7 @@
     <div class="row footer__widget">
       <div class="col-lg-4">
         <div class="footer__widget_logo mb-5">
-          <img src="{{ .Site.Params.footerLogo | absURL }}" alt="widget-logo">
+          <img src="{{ .Site.Params.logo | absURL }}" alt="widget-logo">
         </div>
       </div>
       <div class="col-lg-4">
@@ -81,7 +81,5 @@
 <script src="{{ "plugins/slick/slick.min.js" | absURL }}"></script>
 <script src="{{ "plugins/glightbox/glightbox.min.js" | absURL }}"></script>
 <script src="{{ "plugins/tweenmax/tweenmax.min.js" | absURL }}"></script>
-<!-- {{ $formhandler := resources.Get "js/form-handler.js" | minify }}
-<script src="{{ $formhandler.Permalink }}"></script> -->
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>

@@ -2,8 +2,6 @@ author: Adriano Ferreira
 blogPageURL: blog
 contactLink: contact
 copyright: All right reserved copyright © Portio 2020
-footerLogo: images/contact/widget-logo.png
-fabformURL: 'https://fabform.io/f/JpTXRUa'
 googleAnalytics: YOUR GOOGLE ANALYTICS CODE
 logo: images/site-navigation/logo.png
 address:
@@ -11,11 +9,6 @@ address:
   email: hello@example.com
   openingHours: Open from 10am to 6pm (close at 5pm Sundays)
   phone: +(448) 833 5272 332
-map:
-  APIkey: YOUR GOOGLE MAP API
-  latitude: '23.7783741'
-  longitude: '90.3746808'
-  pinImage: images/pin.png
 socials:
   - name: Facebook
     icon: fa-facebook-official
