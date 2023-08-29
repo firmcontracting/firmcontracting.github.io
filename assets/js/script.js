@@ -2,14 +2,20 @@ $(document).ready(function () {
   // GLightbox initialization
   GLightbox();
 
-  // Change navigation color
-  $(window).scroll(function () {
-    if ($(document).scrollTop() > 200) {
+  var applyFixedNav = function () {
+    if ($(document).scrollTop() > 100) {
       $(".navbar").addClass("nav__color__change");
     } else {
       $(".navbar").removeClass("nav__color__change");
     }
-  });
+  }
+
+  // If the page is refreshed and we are not at the top of the page there won't be a scroll event, so need to call the
+  // function explicitly
+  applyFixedNav();
+
+  // Change navigation fixed property on scroll
+  $(window).scroll(applyFixedNav);
 
   // Smooth scrolling
   var scrollLink = $(".scroll");
@@ -26,8 +32,18 @@ $(document).ready(function () {
     }
   });
 
+  // When the user clicks a navbar link, hide the navbar
   $(".navbar-nav>li>a").on("click", function () {
     $(".navbar-collapse").collapse("hide");
+    $(".navbar").removeClass("nav__show");
+  });
+
+  $(".navbar-toggler").on("click", function () {
+    if ($(".navbar-collapse").hasClass("show")) {
+      $(".navbar").removeClass("nav__show");
+    } else {
+      $(".navbar").addClass("nav__show");
+    }
   });
 
   // Reviews slider
