@@ -74,6 +74,12 @@
     p {
       font-size: $font-size-lg;
     }
+
+    h1 {
+      @include desktop {
+        display: none;
+      }
+    }
   }
 
   &_figure {
