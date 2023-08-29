@@ -58,6 +58,10 @@
   }
 
   &__info {
+    @include desktop {
+      padding-top: 0;
+    }
+
     &_item {
       box-shadow: 0px 20px 40px 0px rgba(50, 65, 141, 0.12);
       padding: 50px 40px;
@@ -94,6 +98,10 @@
   &-form {
     padding: 50px 0 100px 0;
 
+    @include desktop {
+      padding: 50px 0 20px 0;
+    }
+
     &-input {
       .form-group {
         margin-bottom: 30px;
@@ -109,6 +117,14 @@
         border-radius: 30px;
         object-fit: none;
         object-position: center;
+
+        @include mobile {
+          zoom: 0.85;
+        }
+
+        @include mobile-s {
+          zoom: 0.65;
+        }
       }
     }
   }

@@ -132,13 +132,13 @@
 
     @include desktop {
       text-align: center;
-      padding: 50px 0;
+      padding: 50px 0 0 0;
+    }
+  }
 
-      .footer__widget_address {
-        ul {
-          margin-right: 2.14285714em; // match fa-lu margin
-        }
-      }
+  &_socials {
+    i {
+      font-size: 2.0em;
     }
   }
 

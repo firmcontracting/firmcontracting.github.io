@@ -1,11 +1,6 @@
 .reviews {
   background: #f1f6f9;
   position: relative;
-  padding: 170px 0 150px 0;
-
-  @include desktop {
-    padding: 100px 0;
-  }
 
   &__background_shape {
     position: absolute;
@@ -60,31 +55,9 @@
       &-content {
         margin: 0 0 40px 0;
         line-height: 35px;
-        height: 350px;
-
-        @include desktop-lg {
-          height: 420px;
-        }
-
-        @include desktop {
-          height: 300px;
-        }
-
-        @include tablet {
-          height: 450px;
-        }
-
-        @include mobile-xs {
-          height: 475px;
-        }
-
-        @include mobile-s {
-          height: 500px;
-        }
       }
 
       &-author {
-        margin: 0 0 0 35px;
         color: #7e7e8a;
         font-size: 16px;
         line-height: 1;
@@ -93,17 +66,6 @@
         span {
           font-weight: bold;
           color: #282f49;
-        }
-
-        &:before {
-          position: absolute;
-          content: "";
-          height: 2px;
-          width: 20px;
-          left: -35px;
-          top: 50%;
-          transform: translateY(-50%);
-          background: #282f49;
         }
       }
     }
