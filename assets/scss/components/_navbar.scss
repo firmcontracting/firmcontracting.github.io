@@ -15,7 +15,9 @@
 
   .navbar-brand {
     img {
+      margin-top: -26px;
       @include desktop {
+        margin-top: 0;
         width: 80%;
       }
     }
