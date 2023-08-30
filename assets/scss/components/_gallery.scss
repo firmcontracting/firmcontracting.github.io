@@ -21,6 +21,20 @@
         object-position: center;
         min-height: 300px;
         transition: all 0.3s ease;
+
+        @include mobile {
+          min-height: 240;
+        }
+
+        @include mobile-xs {
+          min-height: 230px;
+          max-height: 230px;
+        }
+
+        @include mobile-s {
+          min-height: 200px;
+          max-height: 200px;
+        }
       }
     }
 
