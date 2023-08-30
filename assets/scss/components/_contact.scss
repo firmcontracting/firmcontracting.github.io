@@ -6,7 +6,7 @@
     position: absolute;
     bottom: -35%;
     left: -7%;
-    animation: move_top 5s infinite linear;
+    animation: move-top 5s infinite linear;
 
     @include desktop {
       display: none;
@@ -35,7 +35,7 @@
     right: 10%;
     height: 100px;
     width: 100px;
-    animation: move_top 3s infinite linear;
+    animation: move-top 3s infinite linear;
 
     img {
       height: 100%;
@@ -51,18 +51,18 @@
     padding: 120px 0 0;
   }
 
-  &__title {
+  &-title {
     font-size: 48px;
     line-height: 1;
     margin: 0 0 30px 0;
   }
 
-  &__info {
+  &-info {
     @include desktop {
       padding-top: 0;
     }
 
-    &_item {
+    &-item {
       box-shadow: 0px 20px 40px 0px rgba(50, 65, 141, 0.12);
       padding: 50px 40px;
       border-radius: 20px;

@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
 
-  &_image {
+  &-image {
     &-thumb {
       width: 90%;
       height: 100%;
@@ -39,7 +39,7 @@
     }
 
     &:hover {
-      .gallery_image-thumb img {
+      .gallery-image-thumb img {
         transform: scale(1.05);
       }
     }

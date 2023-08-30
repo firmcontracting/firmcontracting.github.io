@@ -3,7 +3,7 @@
   position: relative;
   margin-top: 150px;
 
-  &__background_shape {
+  &-background-shape {
     position: absolute;
     width: 100%;
     top: 0;
@@ -23,7 +23,7 @@
     }
   }
 
-  &__cta {
+  &-cta {
     background: $primary;
     padding: 100px 80px;
     border-radius: 20px;
@@ -59,7 +59,7 @@
       right: -9%;
       width: 235px;
       height: 208px;
-      animation: move_top 3s infinite linear;
+      animation: move-top 3s infinite linear;
 
       svg {
         height: 100%;
@@ -76,7 +76,7 @@
       padding: 70px 40px;
     }
 
-    &_content {
+    &-content {
       width: 60%;
 
       @include desktop {
@@ -114,7 +114,7 @@
       }
     }
 
-    &_action {
+    &-action {
       width: 40%;
 
       @include desktop {
@@ -132,7 +132,7 @@
     }
   }
 
-  &__widget {
+  &-widget {
     padding: 100px 0;
 
     @include desktop {
@@ -141,13 +141,13 @@
     }
   }
 
-  &_socials {
+  &-socials {
     i {
       font-size: 2.0em;
     }
   }
 
-  &__footer {
+  &-footer {
     padding: 50px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 
@@ -155,7 +155,7 @@
       text-align: center;
     }
 
-    &_social {
+    &-social {
       ul {
         float: right;
 

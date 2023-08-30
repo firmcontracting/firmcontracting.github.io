@@ -4,9 +4,9 @@ $(document).ready(function () {
 
   var applyFixedNav = function () {
     if ($(document).scrollTop() > 100) {
-      $(".navbar").addClass("nav__color__change");
+      $(".navbar").addClass("nav-color-change");
     } else {
-      $(".navbar").removeClass("nav__color__change");
+      $(".navbar").removeClass("nav-color-change");
     }
   }
 
@@ -35,19 +35,19 @@ $(document).ready(function () {
   // When the user clicks a navbar link, hide the navbar
   $(".navbar-nav>li>a").on("click", function () {
     $(".navbar-collapse").collapse("hide");
-    $(".navbar").removeClass("nav__show");
+    $(".navbar").removeClass("nav-show");
   });
 
   $(".navbar-toggler").on("click", function () {
     if ($(".navbar-collapse").hasClass("show")) {
-      $(".navbar").removeClass("nav__show");
+      $(".navbar").removeClass("nav-show");
     } else {
-      $(".navbar").addClass("nav__show");
+      $(".navbar").addClass("nav-show");
     }
   });
 
   // Reviews slider
-  $(".reviews__slider").slick({
+  $(".reviews-slider").slick({
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,

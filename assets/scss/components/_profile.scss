@@ -9,7 +9,7 @@
     padding: 150px 0 30px 0;
   }
 
-  &_background-svg {
+  &-background-svg {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,18 +22,18 @@
     }
   }
 
-  &_footer-svg {
+  &-footer-svg {
     position: absolute;
     bottom: 20px;
     left: -130px;
-    animation: move_top 5s infinite linear;
+    animation: move-top 5s infinite linear;
 
     @include desktop {
       display: none;
     }
   }
 
-  &_content {
+  &-content {
     padding: 0 20px 0 0;
     position: relative;
 
@@ -50,7 +50,7 @@
       }
     }
 
-    .profile_blob {
+    .profile-blob {
       position: absolute;
       z-index: -1;
       top: -45%;
@@ -90,7 +90,7 @@
     }
   }
 
-  &_figure {
+  &-figure {
     width: 90%;
     margin-left: auto;
     border-radius: 20px;
@@ -108,7 +108,7 @@
       transform: translateX(-50%);
       z-index: -1;
       height: 150px;
-      animation: move_left 5s infinite linear;
+      animation: move-left 5s infinite linear;
 
       img {
         height: 100%;
@@ -123,7 +123,7 @@
   }
 }
 
-@keyframes move_left {
+@keyframes move-left {
   0% {
     transform: translateX(-50%);
   }
@@ -133,7 +133,7 @@
   }
 }
 
-@keyframes move_top {
+@keyframes move-top {
 
   0%,
   100% {

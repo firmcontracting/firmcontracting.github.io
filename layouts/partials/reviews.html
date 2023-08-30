@@ -1,6 +1,6 @@
 {{ with .Site.Data.reviews }}
 <section class="section reviews" id="reviews">
-  <div class="reviews__background_shape">
+  <div class="reviews-background-shape">
     <svg viewBox="0 0 1920 79">
       <path d="M0 0h1920v79L0 0z" />
     </svg>
@@ -16,12 +16,12 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <div class="reviews__slider">
+        <div class="reviews-slider">
           {{ $Section := .reviews }}
           {{ range $Section }}
-          <div class="reviews__slider_item">
+          <div class="reviews-slider-item">
             {{ if .star }}
-            <ul class="reviews__slider_item-rating">
+            <ul class="reviews-slider-item-rating">
               {{ $rating := .star | int }}
               {{ $rating := sub $rating 1 }}
               {{ range $i, $sequence := (seq 5) }}
@@ -33,10 +33,10 @@
               {{ end }}
             </ul>
             {{ end }}
-            <p class="reviews__slider_item-content">
+            <p class="reviews-slider-item-content">
               {{ .comment | markdownify }}
             </p>
-            <p class="reviews__slider_item-author">
+            <p class="reviews-slider-item-author">
               <span>{{ .name }}</span> | {{ .time }}
             </p>
           </div>

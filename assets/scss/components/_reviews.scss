@@ -2,7 +2,7 @@
   background: #f1f6f9;
   position: relative;
 
-  &__background_shape {
+  &-background-shape {
     position: absolute;
     width: 100%;
     top: 0;
@@ -22,8 +22,8 @@
     }
   }
 
-  &__slider {
-    &_item {
+  &-slider {
+    &-item  {
       background: $white;
       border-radius: 20px;
       padding: 60px 50px;
