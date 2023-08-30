@@ -1,6 +1,6 @@
 {{ with .Site.Data.services }}
-<section class="section service" id="services">
-  <div class="service__background">
+<section class="section services" id="services">
+  <div class="services__background">
     <svg viewBox="0 0 1283 1126">
       <path fill="#f1f6f9" d="M100 0h1183v1126l-1183-80A100 100 0 010 946V100A100 100 0 01100 0z"
         data-name="Path 1369" />
@@ -9,7 +9,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <div class="service__header mb-5">
+        <div class="services__header mb-5">
           <span class="top-title pre-line">{{ .title }}</span>
           {{ .content | markdownify }}
         </div>
@@ -19,8 +19,8 @@
       {{ $Section := .services }}
       {{ range $Section }}
       <div class="col-lg-6 col-md-12 mb-4">
-        <div class="service_item">
-          <div class="service_item-icon">
+        <div class="services_item">
+          <div class="services_item-icon">
             <div class="icon-background">
               <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
                 <path fill="#f1f6f9"
