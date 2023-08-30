@@ -40,6 +40,14 @@
     @include desktop {
       text-align: center;
       margin-bottom: 60px;
+
+      .pre-line {
+        margin: 0;
+        
+        &::before {
+          display: none;
+        }
+      }
     }
 
     .profile_blob {
