@@ -13,7 +13,7 @@
       {{ range $image := .images }}
       <div class="col-lg-4 mb-4 gallery-image">
         <a data-gallery="gallery1" href="{{ $image | absURL }}" class="gallery-image-thumb glightbox">
-          <img src="{{ $image | absURL }}" alt="image">
+          <img src="{{ $image | absURL }}">
         </a>
       </div>
       {{ end }}
