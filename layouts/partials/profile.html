@@ -6,7 +6,7 @@
     </svg>
   </div>
   <div class="profile-footer-svg">
-    <img src="images/profile/background-pattern.svg" />
+    <img src="{{ "images/profile/background-pattern.svg" | absURL }}" />
   </div>
   <div class="container">
     <div class="row align-items-center">
@@ -30,13 +30,13 @@
             <span class="top-title pre-line">{{ .title }}</span>
             {{ .content | markdownify }}
           </div>
-          <a type="button" class="btn btn-lg btn-primary btn-zoom" href="/contact">Contact me</a>
+          <a type="button" class="btn btn-lg btn-primary btn-zoom" href="{{ "contact" | absURL }}">Contact me</a>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="profile-figure">
           <div class="figure-svg">
-            <img src="images/profile/background-pattern.svg" />
+            <img src="{{ "images/profile/background-pattern.svg" | absURL }}" />
           </div>
           <img src="{{ .image | absURL }}" alt="profile-image" style='
                   -webkit-mask: url({{"images/profile/portrait-mask.svg" | absURL }});
