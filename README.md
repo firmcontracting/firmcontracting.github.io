@@ -11,32 +11,15 @@ static website. The GitHub Actions automation which builds and deploys the websi
 
 ### Setup
 
-We first build the docker image:
+Build the image:
 
 ```
 docker build . -t firmcontracting.com
 ```
 
-Next we initialize the git submodule which will clone the Hugo theme:
-
-```
-git submodule init
-git submodule update
-```
-
-Next we need to install the theme dependencies by mounting the current repository inside the docker container:
-
-```
-docker run -v $PWD:/$PWD -w $PWD/themes/portio -it firmcontracting.com npm install
-```
-
 ### Build
 
-To build the site we need to first invoke the Tailwind CSS JIT compiler to parse the website and theme contents and
-generate the CSS file from a union set of all CSS classes used. Following the CSS generation we invoke the Hugo build
-system to generate the static website.
-
-We can use the same script that is used by the automation to accomplish this:
+To build the site we invoke Hugo extended which will transpile the SCSS under the assets directory:
 
 ```
 docker run -v $PWD:/$PWD -w $PWD -it firmcontracting.com .github/actions/hugo-build/action.sh
