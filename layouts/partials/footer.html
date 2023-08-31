@@ -32,14 +32,14 @@
         </div>
       </div>
     </div>
-    <div class="row footer-widget">
-      <div class="col-lg-4">
-        <div class="footer-widget_logo mb-5">
+    <div class="row justify-content-md-center footer-widget">
+      <div class="col-lg-3 footer-logo">
+        <div class="mb-5">
           <img src="{{ "/logo-white.png" | absURL }}">
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="text-light footer-widget_sitemap mb-5">
+      <div class="col-lg-3">
+        <div class="text-light mb-5">
           <h4 class="base-font">Sitemap</h4>
           <ul class="unstyle-list small">
             {{ $sitemap := .Site.Menus.sitemap }}
@@ -49,8 +49,8 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="footer-socials text-light mb-5">
+      <div class="col-lg-3">
+        <div class="text-light mb-5 footer-socials">
           <h4 class="base-font">Socials</h4>
           <ul class="unstyle-list">
             {{ range $social := .Site.Params.socials }}
