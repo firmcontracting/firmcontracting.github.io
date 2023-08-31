@@ -22,7 +22,7 @@
     }
   }
 
-  &-footer-svg {
+  .background-pattern-1 {
     position: absolute;
     bottom: 20px;
     left: -130px;
@@ -100,7 +100,7 @@
       width: 100%;
     }
 
-    .figure-svg {
+    .background-pattern-2 {
       position: absolute;
       top: -55px;
       left: 50%;
@@ -120,27 +120,5 @@
       height: 100%;
       width: 100%;
     }
-  }
-}
-
-@keyframes move-left {
-  0% {
-    transform: translateX(-50%);
-  }
-
-  50% {
-    transform: translateX(-57%);
-  }
-}
-
-@keyframes move-top {
-
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(15px);
   }
 }
