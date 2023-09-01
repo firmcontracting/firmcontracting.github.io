@@ -11,6 +11,12 @@ languageName: English
 # When enabled a robots.txt file will be created in the site root that allows search engines to crawl the entire site
 enableRobotsTXT: true
 
+# Kinds of content that should be excluded from the generated /sitemap.xml file
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - term
+
 menu:
   main:
     - name: Home
