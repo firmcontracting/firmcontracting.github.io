@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 480 100" xmlns="http://www.w3.org/2000/svg">
-  <g fill="#5d78ff" transform="matrix(1, 0, 0, 1, -3.552713678800501e-15, 0)">
+<svg viewBox="0 7.9 429.1817 90.1189" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#5d78ff" transform="matrix(1, 0, 0, 1, 2.842170943040401e-14, 5.684341886080802e-14)">
     <path d="M 102.4 45.6 L 68.7 8.3 C 68.4 8 68.1 7.9 67.7 7.9 L 42.3 7.9 C 41.9 7.9 41.6 8.1 41.3 8.3 L 7.6 45.6 C 7.4 45.8 7.6 46.1 7.8 46.1 L 11.7 46.1 C 12 46.1 12.3 46 12.5 45.8 L 42.6 12.5 L 72.7 45.8 C 72.9 46 73.2 46.1 73.5 46.1 L 102.3 46.1 C 102.5 46.2 102.6 45.8 102.4 45.6 Z"/>
     <path d="M 40.8 26.7 L 33.6 26.7 C 33.2 26.7 32.9 27 32.9 27.4 L 32.9 34.6 C 32.9 35 33.2 35.3 33.6 35.3 L 40.8 35.3 C 41.2 35.3 41.5 35 41.5 34.6 L 41.5 27.4 C 41.5 27.1 41.2 26.7 40.8 26.7 Z"/>
     <path d="M 51.5 26.7 L 44.3 26.7 C 43.9 26.7 43.6 27 43.6 27.4 L 43.6 34.6 C 43.6 35 43.9 35.3 44.3 35.3 L 51.5 35.3 C 51.9 35.3 52.2 35 52.2 34.6 L 52.2 27.4 C 52.3 27.1 51.9 26.7 51.5 26.7 Z"/>
     <path d="M 40.8 37.5 L 33.6 37.5 C 33.2 37.5 32.9 37.8 32.9 38.2 L 32.9 45.4 C 32.9 45.8 33.2 46.1 33.6 46.1 L 40.8 46.1 C 41.2 46.1 41.5 45.8 41.5 45.4 L 41.5 38.2 C 41.5 37.8 41.2 37.5 40.8 37.5 Z"/>
     <path d="M 51.5 37.5 L 44.3 37.5 C 43.9 37.5 43.6 37.8 43.6 38.2 L 43.6 45.4 C 43.6 45.8 43.9 46.1 44.3 46.1 L 51.5 46.1 C 51.9 46.1 52.2 45.8 52.2 45.4 L 52.2 38.2 C 52.3 37.8 51.9 37.5 51.5 37.5 Z"/>
   </g>
-  <text style="fill: rgb(255, 255, 255); font-family: 'Helvetica Neue', Helvetica, Arial-Unicode, Arial, sans-serif; font-size: 42px; font-weight: 700; white-space: pre;" transform="matrix(1, 0, 0, 1, -3.552713678800501e-15, 0)" x="-56.083" y="89.018">
-    FIRM CONTRACTING
-  </text>
+  <text x="0" y="89.018" fill="#f8f9fa" font-size="42px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif" style="white-space: pre; font-size: 42px;" transform="matrix(1, 0, 0, 1, 2.842170943040401e-14, 5.684341886080802e-14)">FIRM CONTRACTING</text>
 </svg>
