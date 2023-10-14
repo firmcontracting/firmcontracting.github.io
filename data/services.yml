@@ -4,6 +4,11 @@ content: >
   ## Creative Services
 
   We offer a wide range of creative services. From interior renovations to exterior additions, we have you covered.
+images:
+  - images/gallery/living-room-1.jpeg
+  - images/gallery/bathroom-2.jpeg
+  - images/gallery/kitchen-2.jpeg
+  - images/gallery/kitchen-5.jpeg
 services:
   - content: >
       #### Interior
