@@ -16,30 +16,13 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-12">
-        <div class="reviews-slider">
-          {{ $Section := .reviews }}
-          {{ range $Section }}
-          <div class="reviews-slider-item">
-            {{ if .star }}
-            <ul class="reviews-slider-item-rating">
-              {{ $rating := .star | int }}
-              {{ $rating := sub $rating 1 }}
-              {{ range $i, $sequence := (seq 5) }}
-                {{ if le $i $rating }}
-                <li><i class="fa fa-star"></i></li>
-                {{ else }}
-                <li><i class="fa fa-star inactive"></i></li>
-                {{ end }}
-              {{ end }}
-            </ul>
-            {{ end }}
-            <p class="reviews-slider-item-content">
-              {{ .comment | markdownify }}
-            </p>
-            <p class="reviews-slider-item-author">
-              <span>{{ .name }}</span> | {{ .time }}
-            </p>
+      <div class="col-lg-12 mb-4">
+        <div class="services-slider">
+          {{ range $image := .images }}
+          <div class="services-slider-item">
+            <a href="{{ $image | absURL }}">
+              <img src="{{ $image | absURL }}">
+            </a>
           </div>
           {{ end }}
         </div>

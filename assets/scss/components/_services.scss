@@ -15,6 +15,114 @@
     }
   }
 
+  &-slider {
+    &-item  {
+      background: $black;
+      overflow: hidden;
+      width: 90%;
+      height: 100%;
+      border-radius: 20px;
+      margin: 30px 25px;
+
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: center;
+        min-height: 450px;
+        transition: all 0.3s ease;
+
+        @include desktop {
+          min-height: 450px;
+          max-height: 450px;
+        }
+
+        @include tablet {
+          min-height: 370px;
+          max-height: 370px;
+        }
+
+        @include mobile {
+          min-height: 300px;
+          max-height: 300px;
+        }
+
+        @include mobile-xs {
+          min-height: 230px;
+          max-height: 230px;
+        }
+
+        @include mobile-s {
+          min-height: 200px;
+          max-height: 200px;
+        }
+      }
+    }
+
+    .slick-prev,
+    .slick-next {
+      &:before {
+        color: $primary;
+      }
+    }
+
+    .slick-dots {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+
+      li {
+        margin: 0;
+        list-style: none;
+        height: 8px;
+        width: 8px;
+
+        &:not(:last-child) {
+          margin-right: 15px;
+        }
+
+        button {
+          cursor: pointer;
+          height: 100%;
+          width: 100%;
+          background: #c2c8cc;
+          border-radius: 50%;
+          transition: all 0.3s ease;
+          display: block;
+          padding: 0;
+          text-indent: -9999px;
+
+          &:focus {
+            outline: 0;
+          }
+
+          &:hover {
+            background: $primary;
+          }
+        }
+
+        &.slick-active {
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+
+          button {
+            background-color: $primary;
+          }
+        }
+      }
+    }
+
+    .slick-slide {
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+
   &-item  {
     margin: 15px;
     padding: 30px;

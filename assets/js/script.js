@@ -46,6 +46,35 @@ $(document).ready(function () {
     }
   });
 
+  // Services slider
+  $(".services-slider").slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
+  });
+
   // Reviews slider
   $(".reviews-slider").slick({
     infinite: true,
