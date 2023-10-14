@@ -21,7 +21,7 @@ services:
       - Painting Services
 
       - Drywall Installation
-    image: images/service/man-nail-wall.svg
+    image: images/services/man-nail-wall.svg
   - content: >
       #### Exterior
 
@@ -34,5 +34,5 @@ services:
       - Bobcat Services
 
       - Retaining Walls
-    image: images/service/man-shovel-dirt.svg
+    image: images/services/man-shovel-dirt.svg
 ---
