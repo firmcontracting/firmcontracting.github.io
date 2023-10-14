@@ -20,7 +20,7 @@
         <div class="services-slider">
           {{ range $image := .images }}
           <div class="services-slider-item">
-            <a href="{{ $image | absURL }}">
+            <a href="{{ "gallery" | absURL }}">
               <img src="{{ $image | absURL }}">
             </a>
           </div>

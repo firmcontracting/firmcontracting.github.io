@@ -24,11 +24,11 @@ menu:
     - name: Services
       url: '#services'
       weight: 2
-    - name: Gallery
-      url: '#gallery'
-      weight: 3
     - name: Reviews
       url: '#reviews'
+      weight: 3
+    - name: Gallery
+      url: 'gallery'
       weight: 4
     - name: Contact
       url: 'contact'
@@ -38,9 +38,12 @@ menu:
     - name: Home
       url: '#'
       weight: 1
+    - name: Gallery
+      url: 'gallery'
+      weight: 2
     - name: Contact
       url: 'contact'
-      weight: 2
+      weight: 3
 
 params:
   # Website author name (who this website belongs to)
