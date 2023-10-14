@@ -31,7 +31,7 @@ menu:
       url: '#reviews'
       weight: 4
     - name: Contact
-      url: '#contact'
+      url: 'contact'
       weight: 5
 
   sitemap:
