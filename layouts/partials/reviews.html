@@ -8,10 +8,8 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-6 offset-lg-3">
-        <div class="reviews__header">
-          <span class="top-title">{{ .title }}</span>
-          {{ .content | markdownify }}
-        </div>
+        <span class="top-title">{{ .title }}</span>
+        {{ .content | markdownify }}
       </div>
     </div>
     <div class="row">
